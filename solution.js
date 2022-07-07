@@ -80,15 +80,15 @@ const num1 = 30;
 const num2 = 939;
 const num3 = 40.9;
 
-num1 % 2 == 0
+num1 % 2 === 0
     ? console.log(num1 + " is even")
     : console.log(num1 + " is odd");
 
 
-num2 % 2 == 0
+num2 % 2 === 0
     ? console.log(num2 + " is even")
     : console.log(num2 + " is odd");
 
-num3 % 2 == 0
+num3 % 2 === 0
     ? console.log(num3 + " is even")
     : console.log(num3 + " is odd");
