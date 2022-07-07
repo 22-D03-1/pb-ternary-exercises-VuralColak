@@ -8,11 +8,15 @@ console.log("-----------------------------------------------------------------")
 console.log("Aufgabe 1 : ");
 // Declare a boolean variable named isDog. Write code that prints a sentence to the console depending on the value of dog. If true, print 'pat, pat' and if not, print 'find me a dog to pat!'
 
-const isDog = true;
+// const isDog = true;
 
-isDog == true
-    ? console.log("pat, pat")
-    : console.log("find me a dog to pat!");
+// isDog == true
+//     ? console.log("pat, pat")
+//     : console.log("find me a dog to pat!");
+
+const isDog=false;
+
+console.log(isDog? "pat, pat":"find me a dog to pat!");
 
 
 //////////////////////////////////////////////
@@ -23,9 +27,9 @@ console.log("Aufgabe 2 : ");
 
 const speedLimit = 50;
 yourSpeed = 49;
-yourSpeed > speedLimit
-    ? console.log("you're going too fast!")
-    : console.log("You're driving below the speed limit, Oma");
+
+console.log(yourSpeed > speedLimit ? "you're going too fast!"
+    : "You're driving below the speed limit, Oma");
 
 
 //////////////////////////////////////////////
